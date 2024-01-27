@@ -8,6 +8,8 @@ const inter = Inter({
   variable: "--font-sans",
 });
 
+
+
 export const metadata = {
   title: "Luyanda Madonsela",
   description: "Luyanda Madonsela's Portfolio Website",

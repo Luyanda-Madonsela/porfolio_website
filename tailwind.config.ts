@@ -7,10 +7,16 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+
+      colors: {
+        'butt-color': '#0093CB',
       },
 
       height: {
         '96': '24rem',
+        '112': '27rem',
         '128': '32rem',
         '140': '35rem',
         '160': '40rem',
@@ -43,6 +49,9 @@ export default {
         '1000': '250rem',
       }
     },
+
+
+
   },
   plugins: [],
 } satisfies Config;
