@@ -14,8 +14,8 @@ const Navigation = () => {
         </Link>
       </div>
 
-      <div className="flex justify-center items-center content-center ml-80">
-        <ul className="flex gap-20 text-gray-700">
+      <div className="flex justify-center items-center content-center ml-80 gap-10">
+        <ul className="flex gap-14 text-gray-700">
           <li>
             <Link href="/">home</Link>
           </li>
@@ -23,10 +23,11 @@ const Navigation = () => {
             <Link href="/about">about</Link>
           </li>
           <li>
-            <Link href="/portfolio">projects</Link>
+            <Link href="/portfolio">portfolio</Link>
           </li>
         </ul>
-        <Button text="contact" href="/contact"></Button>
+        <Button text="contact" href="/contact" height='3rem' width='8rem' />
+
       </div>
     </div>
   )

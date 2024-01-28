@@ -12,6 +12,7 @@ export default {
 
       colors: {
         'butt-color': '#0093CB',
+        'purple': '#49478E',
       },
 
       height: {
