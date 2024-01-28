@@ -13,6 +13,7 @@ export default {
       colors: {
         'butt-color': '#0093CB',
         'purple': '#49478E',
+        'custom-gray': '#F0F6F8',
       },
 
       height: {
