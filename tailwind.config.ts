@@ -1,13 +1,13 @@
-import { type Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
+import { type Config } from 'tailwindcss'
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
 export default {
-  content: ["./src/**/*.tsx"],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-        'poppins': ['Poppins', 'sans-serif'],
+        sans: ['var(--font-sans)', ...fontFamily.sans],
+        poppins: ['Poppins', 'sans-serif'],
       },
 
       colors: {
@@ -47,11 +47,8 @@ export default {
         '948': '236rem',
         '980': '244rem',
         '1000': '250rem',
-      }
+      },
     },
-
-
-
   },
-  plugins: [],
-} satisfies Config;
+  plugins: [require('tailwind-scrollbar-hide')],
+} satisfies Config

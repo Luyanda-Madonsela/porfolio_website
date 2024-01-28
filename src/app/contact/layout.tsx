@@ -1,18 +1,14 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from 'react'
 
 export const metadata = {
-    title: 'Contact Me',
-    description: 'Get in touch by sending me a message',
+  title: 'Contact Me',
+  description: 'Get in touch by sending me a message',
 }
 
 interface ContactProps {
-    children: ReactNode;
+  children: ReactNode
 }
 
 export default function Contact({ children }: ContactProps) {
-    return (
-        <div>
-            {children}
-        </div>
-    )
+  return <div>{children}</div>
 }

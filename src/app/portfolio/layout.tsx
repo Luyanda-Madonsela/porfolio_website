@@ -1,18 +1,15 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from 'react'
 
 export const metadata = {
-    title: 'My Projects',
-    description: 'All my projects with their corresponding demo links and tech stacks',
+  title: 'My Projects',
+  description:
+    'All my projects with their corresponding demo links and tech stacks',
 }
 
 interface PortfolioProps {
-    children: ReactNode;
+  children: ReactNode
 }
 
 export default function Portfolio({ children }: PortfolioProps) {
-    return (
-        <div>
-            {children}
-        </div>
-    )
+  return <div>{children}</div>
 }
