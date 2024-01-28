@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import welcome_selfie from '/public/images/welcome-selfie.png'
 import Balancer from 'react-wrap-balancer';
 import ExpertisePlaque from '../components/ExpertisePlaque';
+import tech_stack from '/public/images/tech_stack_badges.png'
 
 export default function Home() {
   return (
@@ -48,34 +49,34 @@ export default function Home() {
           <div className='flex justify-center items-center content-center gap-20 '>
       
             <ExpertisePlaque 
-              imageUrl="/public/images/web-design.png" 
+              imageUrl="/images/web-design.png" 
               headingText="UI/UX Design" 
               paragraphText="Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi."
-              imageWidth={500}
-              imageHeight={500}
+              imageWidth={250}
+              imageHeight={250}
             />
 
             <ExpertisePlaque 
-              imageUrl="/public/images/responsive-design.png" 
+              imageUrl="/images/responsive-design.png" 
               headingText="Web App Development" 
               paragraphText="Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi."
-              imageWidth={500}
-              imageHeight={500}
+              imageWidth={250}
+              imageHeight={250}
             />
 
             <ExpertisePlaque 
-              imageUrl="/public/images/app_development.png" 
+              imageUrl="/images/app_development.png" 
               headingText="Software Development" 
               paragraphText="Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi."
-              imageWidth={500}
-              imageHeight={500}
+              imageWidth={250}
+              imageHeight={250}
             />
 
             <ExpertisePlaque 
-              imageUrl="/public/images/storage.png" 
+              imageUrl="/images/storage.png" 
               headingText="Database Development" 
               paragraphText="Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi."
-              imageWidth={500}
+              imageWidth={300}
               imageHeight={500}
             />
           </div>
@@ -89,8 +90,8 @@ export default function Home() {
         </div>
 
         {/* -----------------Tech Stack Badges------------- */}
-        <div className='flex flex-col h-128 w-full p-16'>
-
+        <div className='flex flex-col h-128 w-full items-center content-center justify-center'>
+            <Image src={tech_stack} width={1300} height={1400} alt="Personal Logo" />
         </div>
 
         {/* -----------------Browse Projects Button------------- */}
