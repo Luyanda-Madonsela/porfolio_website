@@ -14,7 +14,7 @@ export default function Home() {
             <div className='text-butt-color font-semibold text-5xl'>Full Stack Web &</div>
             <div className='text-butt-color font-semibold text-5xl'>Software Developer</div>
 
-            <div className='text-butt-color w-3/4 h-24 text-gray-500 font-normal text-lg text-wrap'>
+            <div className='w-3/4 h-24 text-gray-500 font-normal text-lg text-wrap'>
                 <Balancer>
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
                 </Balancer>

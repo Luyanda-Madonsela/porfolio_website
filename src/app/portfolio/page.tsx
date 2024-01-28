@@ -9,7 +9,7 @@ export default function Portfolio() {
         <Header text="my projects" />
           
           </div>
-        <div className="flex border border-red-500 h-160 w-full mt-10 p-16">
+        <div className="flex h-160 w-full mt-10 p-16">
           project plaques
         </div>
       </div>
