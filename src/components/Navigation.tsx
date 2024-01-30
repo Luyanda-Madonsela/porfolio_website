@@ -22,7 +22,7 @@ const Navigation = () => {
             <Link href="/about">about</Link>
           </li>
           <li>
-            <Link href="/portfolio">portfolio</Link>
+            <Link href="/portfolio">projects</Link>
           </li>
         </ul>
         <Button text="contact" href="/contact" height='3rem' width='8rem' />

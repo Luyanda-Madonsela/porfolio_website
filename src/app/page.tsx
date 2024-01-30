@@ -1,8 +1,8 @@
+import Balancer from 'react-wrap-balancer';
 import Image from 'next/image'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import welcome_selfie from '/public/images/welcome-selfie.png'
-import Balancer from 'react-wrap-balancer';
 import ExpertisePlaque from '../components/ExpertisePlaque';
 import tech_stack from '/public/images/tech_stack_badges.png'
 
@@ -86,7 +86,7 @@ export default function Home() {
 
       <div className="flex flex-col h-192 w-full">
         <div className='flex flex-col h-20 w-full pl-16'>
-          <Header text="tech stack" />
+          <Header text="my tech stack" />
         </div>
 
         {/* -----------------Tech Stack Badges------------- */}
