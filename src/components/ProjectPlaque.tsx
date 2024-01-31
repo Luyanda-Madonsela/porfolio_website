@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Button from '../components/Button'
 
 interface ProjectPlaqueProps {
  imageUrl: string;

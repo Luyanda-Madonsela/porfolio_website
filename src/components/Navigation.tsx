@@ -25,7 +25,7 @@ const Navigation = () => {
             <Link href="/portfolio">projects</Link>
           </li>
         </ul>
-        <Button text="contact" href="/contact" height='3rem' width='8rem' />
+        <Button text="contact" href="/contact" target='' height='3rem' width='8rem' />
 
       </div>
     </div>
