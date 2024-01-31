@@ -5,11 +5,12 @@ type ButtonProps = {
   href: string;
   width: string;
   height: string;
+  target: string;
  };
  
- const Button: React.FC<ButtonProps> = ({ text, href, width, height }) => {
+ const Button: React.FC<ButtonProps> = ({ text, href, width, height, target }) => {
   return (
-      <Link href={href}>
+      <Link href={href} target={target}>
         <div 
           className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins"
           style={{ width, height }}

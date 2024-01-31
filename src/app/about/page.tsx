@@ -1,4 +1,6 @@
 import Header from '../../components/Header'
+import Image from 'next/image';
+import about_selfie from '/public/images/aboutImage.png'
 
 export default function About() {
   return (
@@ -8,7 +10,15 @@ export default function About() {
           <Header text="about me" />
         </div>
 
-        <div className="flex border border-red-500 h-140 w-1/3 mt-10">photo</div>
+        <div className="flex flex-row justify-end items-end content-end min-h-140 w-1/3 mt-0">
+        <Image
+            src={about_selfie}
+            width={500}
+            height={800}
+            alt="Luyanda Madonsela's Photo"
+          />
+        </div>
+
       </div>
 
       <div className="flex h-192 w-full pl-16">

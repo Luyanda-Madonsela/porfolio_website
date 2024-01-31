@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             {/* -----------------Browse Projects Button------------- */}
             <div className='text-lg font-semibold text-gray-800'>
-              <Button text="browse portfolio" href="/portfolio" height='4rem' width='12rem'/>
+              <Button text="browse portfolio" href="/portfolio" target='' height='4rem' width='12rem'/>
             </div>
         </div>
         {/* -----------------Hero Image------------- */}
@@ -96,7 +96,7 @@ export default function Home() {
 
         {/* -----------------Browse Projects Button------------- */}
         <div className='flex flex-col h-24 w-full p-16 text-lg font-semibold text-gray-800 justify-center items-center content-center'>
-              <Button text="browse projects" href="/portfolio" height='4rem' width='12rem'/>
+              <Button text="browse projects" href="/portfolio" target='' height='4rem' width='12rem'/>
         </div>
 
       </div>

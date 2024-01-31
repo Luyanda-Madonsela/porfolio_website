@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import ProjectPlaque from '../../components/ProjectPlaque';
+import Button from '../../components/Button'
 
 export default function Portfolio() {
   return (
@@ -17,7 +18,10 @@ export default function Portfolio() {
               headingText1="This Website" 
               headingText2="" 
               imageWidth={150}
-              imageHeight={150} 
+              imageHeight={150}
+              button1={<Button text="demo" href="/" target=''  height='2rem' width='8rem'/>}
+              button2={<Button text="codebase" href="https://github.com/Luyanda-Madonsela/porfolio_website" target='_blank' height='2rem' width='8rem'/>}
+              
             />
 
             <ProjectPlaque               
@@ -26,6 +30,8 @@ export default function Portfolio() {
               headingText2="" 
               imageWidth={150}
               imageHeight={150} 
+              button1={<Button text="demo" href="/portfolio" target='' height='2rem' width='8rem'/>}
+              button2={<Button text="codebase" href="https://github.com/Luyanda-Madonsela/tic_tac_toe" target='_blank' height='2rem' width='8rem'/>}
             />
 
             <ProjectPlaque               
@@ -34,6 +40,8 @@ export default function Portfolio() {
               headingText2="Applications" 
               imageWidth={150}
               imageHeight={150} 
+              button1={<Button text="Java" href="https://github.com/Luyanda-Madonsela/SOPR1_Summative_Assessment_1_Practical" target='_blank' height='2rem' width='8rem'/>}
+              button2={<Button text="JavaScript" href="https://github.com/Luyanda-Madonsela/WEPR1_Summative-_Assessment_1_Practical" target='_blank' height='2rem' width='8rem'/>}
             />
             <ProjectPlaque               
               imageUrl="/images/work-in-progress.png" 
@@ -41,6 +49,8 @@ export default function Portfolio() {
               headingText2="Web Application" 
               imageWidth={150}
               imageHeight={150} 
+              button1={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
+              button2={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
             />
 
             <ProjectPlaque               
@@ -49,6 +59,8 @@ export default function Portfolio() {
               headingText2="Web Application" 
               imageWidth={150}
               imageHeight={150} 
+              button1={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
+              button2={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
             />
 
             <ProjectPlaque               
@@ -57,10 +69,9 @@ export default function Portfolio() {
               headingText2="Web Application" 
               imageWidth={150}
               imageHeight={150} 
+              button1={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
+              button2={<Button text="N/A" href="/portfolio" target='' height='2rem' width='8rem'/>}
             />
-
-
-
 
         </div>
       </div>
