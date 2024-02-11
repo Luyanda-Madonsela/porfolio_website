@@ -11,7 +11,7 @@ const Footer = () => {
             <Link href="https://www.linkedin.com/in/luyanda-madonsela-b52990120/" target="_blank"><FaLinkedin size={40} /></Link>
             
         </div>
-        <div className="text-sm">© 2024 Luyanda Madonsela. All Rights Reserved.</div>
+        <div className="text-sm text-gray-800">© 2024 Luyanda Madonsela. All Rights Reserved.</div>
     </div>
 }
 

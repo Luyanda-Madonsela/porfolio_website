@@ -14,7 +14,7 @@ const Navigation = () => {
       </div>
 
       <div className="flex justify-center items-center content-center ml-80 gap-10">
-        <ul className="flex gap-14 text-gray-700">
+        <ul className="flex gap-14 text-blue-900">
           <li>
             <Link href="/">home</Link>
           </li>

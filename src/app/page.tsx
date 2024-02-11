@@ -44,7 +44,7 @@ export default function Home() {
       <div className="flex flex-col gap-24 h-24 w-full pl-16 pt-18">
         <Header text="my expertise" />
       </div>
-      <div className="flex flex-col gap-24 h-192 w-full pt-10">
+      <div className="flex flex-col gap-24 min-h-160 w-full pt-10">
           
           <div className='flex justify-center items-center content-center gap-20 '>
       
@@ -60,8 +60,8 @@ export default function Home() {
               imageUrl="/images/responsive-design.png" 
               headingText="Web App Development" 
               paragraphText="Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi."
-              imageWidth={250}
-              imageHeight={250}
+              imageWidth={195}
+              imageHeight={150}
             />
 
             <ExpertisePlaque 
