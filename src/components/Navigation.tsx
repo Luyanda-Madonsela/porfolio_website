@@ -6,8 +6,8 @@ import Button from '../components/Button'
 
 const Navigation = () => {
   return (
-    <div className="flex h-32 w-full pl-14 pt-6 font-poppins-500 text-xl ">
-      <div>
+    <div className="flex h-32 w-full pl-14 pt-6 font-poppins-500 text-xl">
+      <div className='mr-10'>
         <Link href="/">
           <Image src={logo} width={180} height={100} alt="Personal Logo" />
         </Link>
