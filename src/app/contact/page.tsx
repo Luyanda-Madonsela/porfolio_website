@@ -1,3 +1,6 @@
+
+'use client'
+
 import Header from '../../components/Header'
 
 export default function Contact() {
@@ -7,7 +10,26 @@ export default function Contact() {
         <div className="flex h-20 w-full p-16">
           <Header text="get in touch" />
         </div>
-        <div className="flex border h-192 w-1/3 mt-20 mb-20">
+        <div className="flex h-160 w-1/3 mt-20 mb-0">   
+
+          <form className="max-w-sm mx-auto w-full">   
+            <label htmlFor="name" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">name<span className='text-red-500 text-m'>*</span></label>
+            <input type="text" id="name" aria-describedby="helper-text-explanation" className="bg-gray-50 border-2 border-butt-color text-gray-900 text-sm rounded-lg focus:ring-butt-color focus:border-butt-color block w-full p-2.5  dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" placeholder="name surname"></input>
+            <br></br>
+            <label htmlFor="email" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">email<span className='text-red-500 text-m'>*</span></label>
+            <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border-2 border-butt-color text-butt-color text-sm rounded-lg focus:ring-butt-color focus:border-butt-color block w-full p-2.5  dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" placeholder="name@domain.com"></input>
+            <br></br>
+            <label htmlFor="subject" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">subject</label>
+            <input type="text" id="subject" aria-describedby="helper-text-explanation" className="bg-gray-50 border-2 border-butt-color text-butt-color text-sm rounded-lg focus:ring-butt-color focus:border-butt-color block w-full p-2.5  dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" placeholder="subject"></input>
+            <br></br>
+            <label htmlFor="message" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">message</label>
+            <textarea id="message" rows={6} className="text-gray-900 bg-gray-50 border-2 border-butt-color text-sm rounded-lg focus:ring-butt-color focus:border-butt-color block w-full p-2.5  dark:bg-white dark:border-butt-color dark:placeholder-gray-400 dark:text-black dark:focus:ring-butt-color dark:focus:border-butt-color" placeholder="Type your message here..."></textarea>
+            <br></br>
+            <br></br>
+            <div className='flex flex-row justify-center items-center content-center'>
+              <button type="submit" style={{ width: '150px', height: '50px' }} className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins text-blue-900">Send</button>
+            </div>
+          </form>
 
         </div>
       </div>
