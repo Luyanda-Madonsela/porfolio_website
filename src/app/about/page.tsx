@@ -13,18 +13,18 @@ export default function About() {
         <div className="flex flex-col min-h-160 w-2/3 p-16">
           <Header text="about me" />
 
-          <div className='w-full mt-5 h-96 pt-10 flex text-gray-500 font-normal text-lg text-wrap'>
-                <Balancer>
-                  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
+          <div className='w-full mt-5 h-96 pt-10 flex text-gray-500 font-normal text-lg overflow-auto'>
+              <p className="whitespace-normal">
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
-                </Balancer>
-            
-          </div>
+                  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
+              </p>
+            </div>
+
 
           <div className='flex mt-1 h-20 flex-row justify-start items-start content-start '>
-                <Link className='text-blue-900 underline' href="/">Download CV as PDF</Link> 
+                <Link className='text-blue-900 underline' href="/">Download CV</Link> 
           </div>
 
         </div>

@@ -13,17 +13,19 @@ export default function Home() {
 
 {/* ------------------------------------------------Hero Section--------------------------------------------------- */}
       <div className=" flex flex-row min-h-0 w-full items-center content-center justify-center pl-16">
-        <div className="flex flex-col gap-3 h-112 w-1/2 pt-10 m-0">
+        <div className="flex flex-col gap-3 min-h-112 w-1/2 pt-10 m-0">
             <Header text="I'm Luyanda Madonsela, a" />
             <div className='text-butt-color font-semibold text-5xl'>Full Stack Web &</div>
             <div className='text-butt-color font-semibold text-5xl'>Software Developer</div>
 
             {/* -----------------Short Intro------------- */}
-            <div className='w-3/4 h-24 text-gray-500 font-normal text-lg text-wrap'>
-                <Balancer>
-                  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
-                </Balancer>
+
+            <div className='w-full min-h-96 pt-3 pb-5 flex text-gray-500 font-normal text-lg overflow-auto'>
+                <p className="whitespace-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio.                 
+                </p>
             </div>
+
             {/* -----------------Browse Projects Button------------- */}
             <div className='text-lg font-semibold text-gray-800'>
               <Button text="View portfolio" href="/portfolio" target='' height='4rem' width='12rem'/>
