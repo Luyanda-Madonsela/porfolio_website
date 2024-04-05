@@ -5,13 +5,12 @@ import Header from '../components/Header'
 import welcome_selfie from '/public/images/welcome-selfie.png'
 import ExpertisePlaque from '../components/ExpertisePlaque';
 import tech_stack from '/public/images/tech_stack_badges.png'
-import { WavyBackground } from "../components/wavy-background";
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col w-screen whitespace-nowrap overflow-auto scrollbar-hide">
 
-<WavyBackground className="flex relative z-1 w-fit whitespace-nowrap overflow-auto scrollbar-hide">
 {/* ------------------------------------------------Hero Section--------------------------------------------------- */}
       <div className=" flex flex-row min-h-0 w-fit items-center content-center justify-center pl-16">
 
@@ -43,7 +42,6 @@ export default function Home() {
           />
         </div>
       </div>
-      </WavyBackground>
 
 {/* ------------------------------------------------Expertise Section--------------------------------------------------- */}
       <div className="flex flex-col gap-24 h-24 w-full pl-16 pt-18">
