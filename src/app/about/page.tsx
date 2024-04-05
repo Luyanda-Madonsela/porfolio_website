@@ -13,13 +13,21 @@ export default function About() {
         <div className="flex flex-col min-h-160 w-2/3 p-16">
           <Header text="about me" />
 
-          <div className='w-full mt-5 h-96 pt-10 flex text-gray-500 font-normal text-lg overflow-auto'>
+          <div className='flex flex-col w-full mt-5 h-112 pt-10 flex text-gray-500 font-normal text-lg overflow-auto'>
               <p className="whitespace-normal">
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
                   Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
-                  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
-                  Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi. Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio. Morbi.
               </p>
+              <br></br>
+              <p>Employment History</p>
+              <br></br>
+              <ul>
+                  <li>Mar 2020 - Current : Mathematics & Science tutor</li>
+                  <li>Mar 2020 - Current : Mathematics & Science tutor</li>
+                  <li>Mar 2020 - Current : Mathematics & Science tutor</li>
+                  <li>Mar 2020 - Current : Mathematics & Science tutor</li>
+            
+                </ul>
             </div>
 
 

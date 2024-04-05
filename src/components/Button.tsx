@@ -12,7 +12,7 @@ type ButtonProps = {
   return (
       <Link href={href} target={target}>
         <div 
-          className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins text-blue-900"
+          className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins text-blue-900 hover:scale-125"
           style={{ width, height }}
         >
           {text}
