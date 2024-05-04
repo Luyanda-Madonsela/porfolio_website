@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="flex h-20 w-full p-16">
           <Header text="get in touch" />
         </div>
-        <div className="flex h-160 w-1/3 mt-20 mb-0">
+        <div className="flex h-160 w-2/3 mt-20 mb-0">
           <form className="max-w-sm mx-auto w-full" onSubmit={handleSubmit}>
             <label htmlFor="name" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">name<span className='text-red-500 text-m'>*</span></label>
             <input
@@ -68,7 +68,7 @@ export default function Contact() {
             <br></br>
             <br></br>
             <div className='flex flex-row justify-center items-center content-center'>
-              <button type="submit" style={{ width: '150px', height: '50px' }} className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins text-blue-900">Send</button>
+              <button type="submit"  className="flex items-center content-center justify-center rounded-md bg-butt-color font-poppins text-blue-900 h-10 w-28">Send</button>
             </div>
           </form>
 
