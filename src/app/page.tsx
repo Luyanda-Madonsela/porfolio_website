@@ -14,7 +14,7 @@ export default function Home() {
 {/* ------------------------------------------------Hero Section--------------------------------------------------- */}
       <div className=" flex flex-col md:flex-row min-h-0 w-fit items-center content-center justify-center mb-16 md:mb-0" >
 
-        <div className="flex items-center content-center justify-start md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-2 2xl:mr-2 relative w-72 h-72 md:w-0 md:h-0">
+        <div className="flex items-center content-center justify-start md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-2 2xl:mr-2 relative w-72 h-64 md:w-0 md:h-0">
           <Image
             src={welcome_selfie}
             layout="fill" 
