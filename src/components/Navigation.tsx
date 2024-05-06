@@ -24,7 +24,7 @@ const Navigation = () => {
 
 
       {/* Menu */}
-      <div className={`flex mt-32 flex-col md:flex-row justify-center items-center content-center lg:ml-20 lg:mt-6 xl:ml-48 2xl:ml-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex`}>
+      <div className={`flex mt-28 flex-col md:flex-row justify-center items-center content-center lg:ml-20 lg:mt-6 xl:ml-48 2xl:ml-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex`}>
         <ul className="flex flex-col md:flex-row gap-5 md:gap-8 lg:gap-12 xl:gap-16 mr-3 text-blue-900">
           <li>
             <Link href="/">Home</Link>
