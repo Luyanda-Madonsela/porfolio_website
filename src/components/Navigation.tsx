@@ -14,7 +14,7 @@ const Navigation = () => {
  };
 
  return (
-    <div className="flex  h-20 md:h-32 w-full pr-10 pl-6 md:pl-14 md:pt-6 mb-5 md:mb-10 font-poppins-500 md:text-md lg:text-lg xl:text-xl relative z-50 justify-between md:justify-normal">
+    <div className="flex  h-16 md:h-32 w-full pr-10 pl-6 md:pl-14 md:pt-6 mb-5 md:mb-10 font-poppins-500 md:text-md lg:text-lg xl:text-xl relative z-50 justify-between md:justify-normal">
       <div className='md:mr-10 relative w-32 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48'>
         <Link href="/">
           <Image src={logo} layout="fill" objectFit="contain" alt="Personal Logo" />
