@@ -24,25 +24,25 @@ const Navigation = () => {
 
 
       {/* Menu */}
-      <div className={`flex mt-28 flex-col md:flex-row justify-center items-center content-center lg:ml-20 lg:mt-6 xl:ml-48 2xl:ml-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex`}>
+      <div className={`flex mt-28 flex-col md:flex-row justify-center items-center content-center md:ml-5 lg:ml-20 custom:ml-48 md:mt-0 lg:mt-6 xl:ml-52 2xl:ml-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex `}>
         <ul className="flex flex-col md:flex-row gap-5 md:gap-8 lg:gap-12 xl:gap-16 mr-3 text-blue-900">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">about</Link>
           </li>
           <li>
-            <Link href="/portfolio">Projects</Link>
+            <Link href="/portfolio">projects</Link>
           </li>
         </ul>
 
-        <Button text="Contact" href="/contact" target='' height="h-10" width="w-28"/>
+        <Button text="contact" href="/contact" target='' height="h-10" width="w-28"/>
       </div>
 
       {/* Hamburger Icon */}
       <button onClick={toggleMenu} className="md:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6 text-gray-500">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6 text-gray-500 ">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>

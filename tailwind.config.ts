@@ -5,6 +5,11 @@ export default {
   content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+
+      screens:{
+            "custom":"1366px"
+      },
+
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
         poppins: ['Poppins', 'sans-serif'],
@@ -93,4 +98,5 @@ export default {
   },
   plugins: [require('tailwind-scrollbar-hide')],
 } satisfies Config
+
 
