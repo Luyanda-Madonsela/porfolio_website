@@ -17,59 +17,59 @@ export default function Portfolio() {
             <ProjectPlaque               
               mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48 relative'><Image src="/images/blog.png" alt="This Website" layout='fill' objectFit='contain' /></div>}
               stackImage={<div className='md:h-8 md:w-28 lg:h-12 lg:w-36 xl:h-18 xl:w-44 2xl:h-18 2xl:w-48 relative'><Image src="/images/portfolio_website_stack.png" alt="This Website" layout='fill' objectFit='cover' /></div>}
-              headingText1="This Website" 
+              headingText1="this website" 
               headingText2="" 
-              button1={<Button text="Demo" href="/" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
-              button2={<Button text="Source Code" href="https://github.com/Luyanda-Madonsela/porfolio_website" target='_blank'  height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+              button1={<Button text="demo" href="/" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
+              button2={<Button text="source code" href="https://github.com/Luyanda-Madonsela/porfolio_website" target='_blank'  height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
             <ProjectPlaque               
             mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-40 2xl:w-40 relative'><Image src="/images/tic-tac-toe.png" alt="Tic Tac Toe" layout='fill' objectFit='contain' /></div>}
             stackImage={<div className='md:h-8 md:w-28 lg:h-12 lg:w-36 xl:h-18 xl:w-44 2xl:h-18 2xl:w-48 relative'><Image src="/images/tic_tac_toe_stack.png" alt="Tic Tac Toe Stack" layout='fill' objectFit='cover' /></div>}
-            headingText1="Tic Tac Toe" 
-            headingText2="Game" 
-            button1={<Button text="Demo" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
-            button2={<Button text="Source Code" href="https://github.com/Luyanda-Madonsela/tic_tac_toe" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            headingText1="tic tac toe" 
+            headingText2="" 
+            button1={<Button text="demo" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20" />}
+            button2={<Button text="source code" href="https://github.com/Luyanda-Madonsela/tic_tac_toe" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 
             <ProjectPlaque               
             mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48 relative'><Image src="/images/command-line.png" alt="Command Line Interface" layout='fill' objectFit='contain' /></div>}
             stackImage={<div className='pl- xl:pl-0'><div className='md:h-12 md:w-20 lg:h-14 lg:w-24 xl:h-16 xl:w-28 2xl:h-16 2xl:w-28 relative'><Image src="/images/cli_stack.png" alt="CLI Stack" layout='fill' objectFit='cover' /></div></div>}
-            headingText1="Command Line " 
-            headingText2="Interface Applications" 
-            button1={<Button text="Java" href="https://github.com/Luyanda-Madonsela/SOPR1_Summative_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
-            button2={<Button text="JavaScript" href="https://github.com/Luyanda-Madonsela/WEPR1_Summative-_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            headingText1="command line " 
+            headingText2="interface applications" 
+            button1={<Button text="java" href="https://github.com/Luyanda-Madonsela/SOPR1_Summative_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
+            button2={<Button text="javaScript" href="https://github.com/Luyanda-Madonsela/WEPR1_Summative-_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 
             <ProjectPlaque               
             mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48 relative'><Image src="/images/work-in-progress.png" alt="Work in Progress" layout='fill' objectFit='contain' /></div>}
             stackImage={<div className='md:h-12 md:w-48 lg:h-20 lg:w-64 xl:h-24 xl:w-72 2xl:h-24 2xl:w-72 relative'><Image src="/images/pph_stack.png" alt="Past Paper Revision Stack" layout='fill' objectFit='cover' /></div>}
-            headingText1="Past Paper Revision" 
-            headingText2="Web Application" 
-            button1={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
-            button2={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            headingText1="past paper revision" 
+            headingText2="web application" 
+            button1={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
+            button2={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 
             <ProjectPlaque               
             mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48 relative'><Image src="/images/work-in-progress.png" alt="Work in Progress" layout='fill' objectFit='contain' /></div>}
             stackImage={<div className='md:h-8 md:w-28 lg:h-12 lg:w-36 xl:h-18 xl:w-44 2xl:h-18 2xl:w-48 relative'><Image src="/images/portfolio_website_stack.png" alt="Portfolio Website Stack" layout='fill' objectFit='cover' /></div>}
-            headingText1="Weather" 
-            headingText2="Web Application"
-            button1={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
-            button2={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            headingText1="weather" 
+            headingText2="web application"
+            button1={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
+            button2={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 
             <ProjectPlaque               
             mainImage={<div className='lg:h-36 lg:w-36 xl:h-48 xl:w-48 2xl:h-48 2xl:w-48 relative'><Image src="/images/work-in-progress.png" alt="Work in Progress" layout='fill' objectFit='contain' /></div>}
             stackImage={<div className='md:h-8 md:w-28 lg:h-12 lg:w-36 xl:h-18 xl:w-44 2xl:h-18 2xl:w-48 relative'><Image src="/images/portfolio_website_stack.png" alt="Portfolio Website Stack" layout='fill' objectFit='cover' /></div>}
-            headingText1="Video Chat" 
-            headingText2="Web Application" 
-            button1={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
-            button2={<Button text="N/A" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            headingText1="video chat" 
+            headingText2="web application" 
+            button1={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
+            button2={<Button text="n/a" href="/portfolio" target='' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 

@@ -30,7 +30,7 @@ const ProjectPlaque: React.FC<ProjectPlaqueProps> = ({ mainImage, stackImage, he
                         {stackImage}
                     </div>
 
-                    <div className='flex ml-4 xl:h-40 custom:w-64 custom:h-40  xl:w-72 2xl:h-40 2xl:w-96 gap-4 md:gap-5 lg:gap-10 custom:gap-5  justify-center items-center content-center'>
+                    <div className='flex ml-1 xl:h-40 custom:w-64 custom:h-40  xl:w-72 2xl:h-40 2xl:w-96 gap-4 md:gap-5 lg:gap-10 custom:gap-5  justify-center items-center content-center'>
                         {button1}
                         {button2}
                     </div>
