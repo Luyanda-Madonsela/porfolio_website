@@ -38,7 +38,7 @@ export default function Home() {
 
             {/* -----------------Browse Projects Button------------- */}
             <div className='flex text-lg font-semibold text-gray-800 items-center content-center justify-center md:justify-start'>
-              <Button text="View portfolio" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-16 2xl:h-16" width="w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-44"/>
+              <Button text="view portfolio" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-16 2xl:h-16" width="w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-44"/>
             </div>
         </div>
         {/* -----------------Hero Image------------- */}
@@ -54,7 +54,9 @@ export default function Home() {
 
 {/* ------------------------------------------------Expertise Section--------------------------------------------------- */}
       <div className="flex flex-col md:h-24 w-full pl-28 md:pl-16 md:pt-10">
-        <Header text="my expertise" />
+        <div className="pl-3 md:pl-0">
+          <Header text="my expertise" />
+        </div>
       </div>
 
       <div className="flex ml-8 md:ml-0 w-4/5 md:w-full pt-10 md:pt-16 2xl:pt-16 justify-center items-center content-center">
@@ -102,7 +104,7 @@ export default function Home() {
 
         {/* -----------------Browse Projects Button------------- */}
         <div className='flex flex-col h-24 w-full p-16 text-lg font-semibold text-gray-800 justify-center items-center content-center'>
-              <Button text="View projects" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-12 2xl:h-12" width="w-40 md:w-40 lg:w-40 xl:w-40 2xl:w-40"/>
+              <Button text="view projects" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-12 2xl:h-12" width="w-40 md:w-40 lg:w-40 xl:w-40 2xl:w-40"/>
         </div>
 
       </div>

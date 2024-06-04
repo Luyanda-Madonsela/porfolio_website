@@ -14,8 +14,8 @@ const Navigation = () => {
  };
 
  return (
-    <div className="flex  h-20 md:h-32 w-full pr-10 pl-6 md:pl-14 md:pt-6 mb-5 md:mb-10 font-poppins-500 md:text-md lg:text-lg xl:text-xl relative z-50 justify-between md:justify-normal">
-      <div className='md:mr-10 relative w-32 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48'>
+    <div className="flex h-20 md:h-32 w-full pr-10 pl-6 md:pl-14 md:pt-6 mb-5 md:mb-10 font-poppins-500 md:text-md lg:text-lg xl:text-xl relative z-50 justify-between md:justify-normal">
+      <div className='mt-2 md:mt-0 md:mr-10 relative w-32 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48'>
         <Link href="/">
           <Image src={logo} layout="fill" objectFit="contain" alt="Personal Logo" />
         </Link>
@@ -24,7 +24,7 @@ const Navigation = () => {
 
 
       {/* Menu */}
-      <div className={`flex mt-28 flex-col md:flex-row justify-center items-center content-center md:ml-5 lg:ml-20 custom:ml-48 md:mt-0 lg:mt-6 xl:ml-52 2xl:ml-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex `}>
+      <div className={`flex relative mt-8 w-28 h-40 z-50 bg-white sm:h-20 sm:w-4/6 flex-col md:flex-row justify-start items-center content-center md:pl-4 lg:pl-16 custom:pl-44 md:mt-4 lg:mt-6 xl:pl-56 2xl:pl-72 xl:mt-10 gap-5 md:gap-2 lg:gap-5 xl:gap-10 ${isMenuOpen ? 'block' : 'hidden'} md:flex `}>
         <ul className="flex flex-col md:flex-row gap-5 md:gap-8 lg:gap-12 xl:gap-16 mr-3 text-blue-900">
           <li>
             <Link href="/">home</Link>

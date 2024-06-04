@@ -20,10 +20,14 @@ export default function Contact() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <div className="flex flex-col min-h-192 w-full items-center">
-        <div className="flex h-20 w-full p-16">
-          <Header text="get in touch" />
+
+
+        <div className="flex h-12 md:h-16 w-full md:p-16 md:pt-24 justify-center items-center content-center md:justify-start md:items-center md:content-center ">      
+        <Header text="get in touch" />
         </div>
-        <div className="flex h-160 w-2/3 mt-20 mb-0">
+
+
+        <div className="flex h-160 w-2/3 mt-10 md:mt-20 mb-0">
           <form className="max-w-sm mx-auto w-full" onSubmit={handleSubmit}>
             <label htmlFor="name" className="block mb-2 text-xl font-medium text-gray-900 dark:text-purple">name<span className='text-red-500 text-m'>*</span></label>
             <input
