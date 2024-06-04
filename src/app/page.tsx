@@ -24,13 +24,16 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-1 md:gap-2 lg:gap-1 xl:gap-3 2xl:gap-3 min-h-112 w-4/5 md:w-1/2 md:pt-2 lg:pt-10 m-0">
-            <Header text="I'm Luyanda Madonsela, a" />
-            <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-14 md:pl-0'>Full Stack Web &</div>
-            <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-9 md:pl-0'>Software Developer</div>
+            <div className=" pl-2 md:pl-0"> 
+              <Header text="I'm Luyanda Madonsela, a" />
+            </div>
+          
+            <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-16 md:pl-0'>Full Stack Web &</div>
+            <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-11 md:pl-0'>Software Developer</div>
 
             {/* -----------------Short Intro------------- */}
 
-            <div className='w-full min-h-96 pt-3 pb-5 flex text-gray-500 font-normal lg:text-md xl:text-lg 2xl:text-lg overflow-auto'>
+            <div className='w-full pl-3 md:pl-0 min-h-96 pt-3 pb-5 flex text-gray-500 font-normal lg:text-md xl:text-lg 2xl:text-lg overflow-auto'>
                 <p className="whitespace-normal">
                     Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio.                 
                 </p>
