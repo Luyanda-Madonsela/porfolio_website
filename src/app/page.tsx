@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-1 md:gap-2 lg:gap-1 xl:gap-3 2xl:gap-3 min-h-112 w-4/5 md:w-1/2 md:pt-2 lg:pt-10 m-0">
-            <div className=" pl-2 md:pl-0"> 
+            <div className=" pl-3 md:pl-0"> 
               <Header text="I'm Luyanda Madonsela, a" />
             </div>
           
