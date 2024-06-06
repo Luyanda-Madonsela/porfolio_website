@@ -39,7 +39,7 @@ export default function Portfolio() {
             headingText1="command line " 
             headingText2="interface applications" 
             button1={<Button text="java" href="https://github.com/Luyanda-Madonsela/SOPR1_Summative_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-20 md:w-20 lg:w-20 xl:w-20 2xl:w-20"/>}
-            button2={<Button text="javaScript" href="https://github.com/Luyanda-Madonsela/WEPR1_Summative-_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
+            button2={<Button text="javascript" href="https://github.com/Luyanda-Madonsela/WEPR1_Summative-_Assessment_1_Practical" target='_blank' height="h-8 md:h-8 lg:h-10 xl:h-10 2xl:h-10" width="w-28 md:w-28 lg:w-28 xl:w-28 2xl:w-28"/>}
             />
 
 
