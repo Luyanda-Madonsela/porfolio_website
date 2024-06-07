@@ -27,7 +27,7 @@ export default function About() {
               <br></br>
               <div className=' ml-2 md:ml-0'>
                 <div className='mb-2 md:mb-0 ml-16 md:ml-0 '>
-                <p>Employment History</p>
+                <p className="font-bold">Employment History:</p>
                 </div>
               </div>
               
@@ -65,7 +65,7 @@ export default function About() {
       <div className=' ml-3 md:ml-0'></div>
 
           <div className="flex flex-col min-h-20 w-full pl-24 md:pl-16">
-            <div className='ml-5 md:ml-0'>
+            <div className='ml-1 md:ml-0'>
                 <Header text="certifications" />
             </div>
             

@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-poppins whitespace-nowrap overflow-x-hidden overflow-y-auto scrollbar-hide">
+      <body className="font-poppins whitespace-nowrap overflow-x-hidden overflow-y-auto scrollbar-hide bg-sky-50">
         <Navigation />
         {children}
         <Footer />

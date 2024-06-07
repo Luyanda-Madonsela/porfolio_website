@@ -24,10 +24,10 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-1 md:gap-2 lg:gap-1 xl:gap-3 2xl:gap-3 min-h-112 w-4/5 md:w-1/2 md:pt-2 lg:pt-10 m-0">
-            <div className=" pl-3 md:pl-0"> 
-              <Header text="I'm Luyanda Madonsela, a" />
-            </div>
-          
+           <div className="-ml-3 md:-ml-0">
+             <Header text="I'm Luyanda Madonsela," />
+           </div>
+            
             <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-16 md:pl-0'>Full Stack Web &</div>
             <div className='text-butt-color font-semibold text-2xl lg:text-3xl xl:text-5xl pl-11 md:pl-0'>Software Developer</div>
 
@@ -56,8 +56,8 @@ export default function Home() {
       </div>
 
 {/* ------------------------------------------------Expertise Section--------------------------------------------------- */}
-      <div className="flex flex-col md:h-24 w-full pl-28 md:pl-16 md:pt-10">
-        <div className="pl-3 md:pl-0">
+      <div className="flex flex-col md:h-24 w-full pl-24 md:pl-16 md:pt-10">
+        <div className="pl-2 md:pl-0">
           <Header text="my expertise" />
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function Home() {
 
       <div className="flex flex-col md:h-128 lg:h-192 w-full">
 
-        <div className='flex flex-col h-20 w-full pl-28 md:pl-16'>
+        <div className='flex flex-col h-20 w-full pl-24 md:pl-16'>
           <Header text="my tech stack" />
         </div>
 

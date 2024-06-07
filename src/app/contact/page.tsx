@@ -22,7 +22,8 @@ export default function Contact() {
       <div className="flex flex-col min-h-192 w-full items-center">
 
 
-        <div className="flex h-12 md:h-16 w-full md:p-16 md:pt-24 justify-center items-center content-center md:justify-start md:items-center md:content-center ">      
+        <div className="flex h-12 md:h-16 w-full md:p-16 md:pt-24 justify-center items-center content-center md:justify-start md:items-center md:content-center ">  
+          <div className="-ml-3 md:-ml-0"></div>
         <Header text="get in touch" />
         </div>
 
