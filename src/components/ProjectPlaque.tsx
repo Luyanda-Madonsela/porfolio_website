@@ -12,7 +12,7 @@ interface ProjectPlaqueProps {
 const ProjectPlaque: React.FC<ProjectPlaqueProps> = ({ mainImage, stackImage, headingText1, headingText2, button1, button2 }) => {
  return (
     <div>
-        <div className='flex flex-row w-full h-72 md:h-40 lg:h-40 xl:h-48  bg-white rounded-r-lg hover:shadow-xl'>
+        <div className='flex flex-row w-full h-80 md:h-40 lg:h-40 xl:h-48  bg-white rounded-r-lg hover:shadow-xl'>
 
                 <div className='flex w-3 bg-butt-color'></div>
 

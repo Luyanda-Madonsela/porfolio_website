@@ -12,18 +12,19 @@ export default function Home() {
     <main className="flex min-h-screen flex-col w-screen whitespace-nowrap overflow-auto scrollbar-hide">
 
 {/* ------------------------------------------------Hero Section--------------------------------------------------- */}
-      <div className=" flex flex-col md:flex-row min-h-0 w-fit items-center content-center justify-center mb-16 md:mb-0" >
+      <div className=" flex flex-col md:flex-row min-h-0 w-fit items-center content-center justify-center mb-16 md:mb-0 2xl:gap-10" >
 
-        <div className="flex items-center content-center justify-start md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-2 2xl:mr-2 relative w-72 h-64 md:w-0 md:h-0">
-          <Image
-            src={welcome_selfie}
-            layout="fill" 
-            objectFit="contain"
-            alt="Luyanda Madonsela's Photo"
-          />
+        <div className="flex items-center content-center justify-start md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-2 2xl:mr-2 relative w-72 h-64 md:w-0 md:h-0 ">
+            <Image
+              src={welcome_selfie}
+              layout="fill" 
+              objectFit="contain"
+              alt="Luyanda Madonsela's Photo"
+            />
         </div>
 
-        <div className="flex flex-col gap-1 md:gap-2 lg:gap-1 xl:gap-3 2xl:gap-3 min-h-112 w-4/5 md:w-1/2 md:pt-2 lg:pt-10 m-0">
+        <div className="2xl:-ml-10 flex flex-col gap-0 md:gap-2 lg:gap-1 xl:gap-3 min-h-112 w-4/5 md:w-1/2 md:pt-2 lg:pt-10 m-0">
+          <div className="2xl:-ml-5">
            <div className="-ml-3 md:-ml-0">
              <Header text="I'm Luyanda Madonsela," />
            </div>
@@ -33,7 +34,7 @@ export default function Home() {
 
             {/* -----------------Short Intro------------- */}
 
-            <div className='w-full pl-3 md:pl-0 min-h-96 pt-3 pb-5 flex text-gray-500 font-normal lg:text-md xl:text-lg 2xl:text-lg overflow-auto'>
+            <div className='w-full pl-3 md:pl-0 min-h-24 pt-3 pb-5 flex text-gray-500 font-normal lg:text-md xl:text-lg 2xl:text-lg overflow-auto'>
                 <p className="whitespace-normal">
                     Lorem ipsum dolor sit amet, consectetur adipis elitor. Euismod elementum nunc faucibus enim. Amet velit lectus elementum leo placerat odio.                 
                 </p>
@@ -41,11 +42,12 @@ export default function Home() {
 
             {/* -----------------Browse Projects Button------------- */}
             <div className='flex text-lg font-semibold text-gray-800 items-center content-center justify-center md:justify-start'>
-              <Button text="view portfolio" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-16 2xl:h-16" width="w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-44"/>
+            <Button text="view portfolio" href="/portfolio" target='' height="h-12 md:h-12 lg:h-12 xl:h-16 2xl:h-16" width="w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-44"/>
             </div>
         </div>
+        </div>
         {/* -----------------Hero Image------------- */}
-        <div className="flex items-center content-center justify-start min-h-160 md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-6 2xl:mr-32 relative md:w-64 md:h-72 lg:w-96 lg:h-96 xl:w-140 xl:h-140">
+        <div className="flex items-center content-center justify-start min-h-160 md:mb-28 lg:mb-28 xl:mb-10 2xl:mb-10 xl:mr-6 2xl:mr-32 relative md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-140 xl:h-140">
           <Image
             src={welcome_selfie}
             layout="fill" 

@@ -44,7 +44,7 @@ export default function About() {
 
           <div className='ml-5 md:ml-0'>
               <div className='flex ml-20 md:ml-0 mt-10 md:mt-4 lg:mt-4 xl:mt-4 2xl:mt-1 h-20 flex-row justify-start items-start content-start '>
-                    <Link className='text-blue-900 underline' href="/">Download CV</Link> 
+                    <Link className='text-blue-900 underline hover:text-lime-400' target="_blank" href="/luyanda_madonsela-cv.pdf">Download CV</Link> 
               </div>
           </div>
 
